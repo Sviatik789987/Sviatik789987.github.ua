@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Blog </title>
+    <!-- Початок стилів (css код) ................................................................. -->
+    <style>
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+
+        background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-zoom-backgrounds-free-star-wars-starfield-1587416939.jpg?crop=1xw:1xh;center,top&resize=480:*');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    header {
+        text-align: center;
+        background-color: #7ef7f5;
+        height: 60px;
+        margin-bottom: 60px;
+
+
+    }
+
+    .content {
+
+        background-color: #11788f;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content h1 {
+
+        text-align: center;
+    }
+
+    footer {
+        background-color: lightgreen;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .row {
+
+        display: flex;
+    }
+
+    .box {
+
+        background-color: blue;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        flex-grow: 1;
+    }
+
+    .box p {
+        color: white;
+        font-size: 25px;
+    }
+
+    .box img {
+
+        margin-right: 5px;
+        max-width: 350px;
+        max-height: 100%;
+        border: 5px groove darkblue;
+        border-radius: 10px;
+        float: left;
+    }
+
+
+
+
+    .menu{
+        text-align: center;
+        background-color: #d6243c;
+        color: white;
+
+
+    }
+
+     .menu ul{
+        list-style: none;
+
+
+     }
+
+     .menu li{
+        display: inline-block;
+        padding:  20px 40px;
+     }
+
+     li:hover {
+background-color: white;
+color: black;
+cursor: pointer;
+
+}
+
+a {
+
+color: white;
+text-decoration: none;
+
+}
+    </style>
+    <!-- Кінець стилів ................................................................. -->
+</head>
+
+<body>
+
+
+    <!--Хедер (Шапка сайту) ................................................................. -->
+    <header>
+        <h1>Хедер</h1>
+
+
+<div class="menu">
+    <ul>
+        <a href="index.html"> <li>Головна</li> </a>
+         <a href="posts.html"> <li>Бешеный кот</li> </a>
+          <a href="npo_mene.html"> <li>Про мене</li> </a>
+           <a href="contacs.html"> <li>Контакти</li> </a>
+       </ul>
+   </div>
+    </header>
+
+
+    <!-- Основний блок (Контент сайту) ................................................................. -->
+    <div class="content">
+        <h1>Контакти</h1>
+
+
+        <!-- 1 стаття ---------------------------- -->
+        <div class="row">
+            <div class="box">
+                <img src="https://www.primavista.ru/blog/wp-content/uploads/2017/05/tumblr_o0jy6lfU7R1tx7omgo1_5001.gif">
+                <p> Если возникнут проблемы звоните 0987775672 </p>
+            </div>
+        </div>
+
+
+        
+       
+
+
+    <!--Футер (Підвал сайту) ................................................................. -->
+    <footer>
+        <p>&copy CopyRight - Всі права захищені</p>
+    </footer>
+
+
+</body>
+</html>
